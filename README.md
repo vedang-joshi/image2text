@@ -14,3 +14,7 @@ To install the required dependencies, you can run the following command:
 
 ```bash
 pip install easyocr pandas openpyxl
+
+## Output
+
+The script will generate an output.xlsx file that contains all the extracted text from the image. Each line of text will be stored in a separate row in the Excel file.
