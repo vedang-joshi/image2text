@@ -2,7 +2,7 @@ import easyocr
 import pandas as pd
 
 reader = easyocr.Reader(['en']) # Specify the language(s) you want to recognize
-result = reader.readtext("Files_that_are_replaced_when_loading_a_new_IETM_part_one.jpg")
+result = reader.readtext("img_to_be_converted_to_txt.jpg")
 
 text_list = []
 for (bbox, text, prob) in result:
